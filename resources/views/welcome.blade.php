@@ -65,25 +65,29 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
+               <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
+                        <a href="/kalkulator">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             </div>
                             <img class="img-fluid" src="{{ asset('images/portfolio/kalkulator.png') }}" alt="..." />
+                            <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0">kalkulator</h3>
                         </div>
+                        </a>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
+                        <a href="/periodik">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">  
                             </div>
                             <img class="img-fluid" src="{{ asset('images/portfolio/pick.png') }}" alt="..." />
-                            <p>Rumus kimia</p>
+                            <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0">Rumus Kimia</h3>
                         </div>
+                    </a>
                     </div>
         </section>
         
